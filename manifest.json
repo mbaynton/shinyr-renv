@@ -16,10 +16,10 @@
       "description": {
         "Package": "MASS",
         "Priority": "recommended",
-        "Version": "7.3-60",
-        "Date": "2023-05-02",
-        "Revision": "$Rev: 3621 $",
-        "Depends": "R (>= 4.0), grDevices, graphics, stats, utils",
+        "Version": "7.3-59",
+        "Date": "2023-04-03",
+        "Revision": "$Rev: 3618 $",
+        "Depends": "R (>= 4.2.0), grDevices, graphics, stats, utils",
         "Imports": "methods",
         "Suggests": "lattice, nlme, nnet, survival",
         "Authors@R": "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n\t     person(\"Bill\", \"Venables\", role = \"ctb\"),\n\t     person(c(\"Douglas\", \"M.\"), \"Bates\", role = \"ctb\"),\n\t     person(\"Kurt\", \"Hornik\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"Albrecht\", \"Gebhardt\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"David\", \"Firth\", role = \"ctb\"))",
@@ -31,12 +31,13 @@
         "URL": "http://www.stats.ox.ac.uk/pub/MASS4/",
         "Contact": "<MASS@stats.ox.ac.uk>",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-05-02 16:42:41 UTC; ripley",
+        "Packaged": "2023-04-03 15:09:54 UTC; ripley",
         "Author": "Brian Ripley [aut, cre, cph],\n  Bill Venables [ctb],\n  Douglas M. Bates [ctb],\n  Kurt Hornik [trl] (partial port ca 1998),\n  Albrecht Gebhardt [trl] (partial port ca 1998),\n  David Firth [ctb]",
         "Maintainer": "Brian Ripley <ripley@stats.ox.ac.uk>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-05-04 07:32:21 UTC",
-        "Built": "R 4.3.1; x86_64-pc-linux-gnu; 'Thu, 29 Jun 2023 02:06:23 +0000'; unix"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-04-21 10:54:22 UTC",
+        "Encoding": "UTF-8",
+        "Built": "R 4.3.2; x86_64-pc-linux-gnu; 2024-05-31 22:07:34 UTC; unix"
       }
     },
     "Matrix": {
@@ -150,8 +151,8 @@
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
-        "Version": "1.0.11",
-        "Date": "2023-07-03",
+        "Version": "1.0.12",
+        "Date": "2024-01-08",
         "Author": "Dirk Eddelbuettel, Romain Francois, JJ Allaire, Kevin Ushey, Qiang Kou,\n Nathan Russell, Inaki Ucar, Douglas Bates and John Chambers",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Description": "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation\n about 'Rcpp' is provided by several vignettes included in this package, via the\n 'Rcpp Gallery' site at <https://gallery.rcpp.org>, the paper by Eddelbuettel and\n Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,\n <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018,\n <doi:10.1080/00031305.2017.1375990>); see 'citation(\"Rcpp\")' for details.",
@@ -164,10 +165,10 @@
         "RoxygenNote": "6.1.1",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-07-03 15:56:55 UTC; edd",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-07-06 07:33:14 UTC",
-        "Built": "R 4.3.1; x86_64-pc-linux-gnu; 2023-07-28 19:10:14 UTC; unix"
+        "Packaged": "2024-01-08 12:50:16 UTC; edd",
+        "Repository": "RSPM",
+        "Date/Publication": "2024-01-09 08:20:35 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2024-05-30 01:39:06 UTC; unix"
       }
     },
     "SparseM": {
@@ -2497,13 +2498,13 @@
       "description": {
         "Package": "vroom",
         "Title": "Read and Write Rectangular Text Data Quickly",
-        "Version": "1.6.3",
+        "Version": "1.6.5",
         "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"Shelby\", \"Bearrows\", role = \"ctb\"),\n    person(\"https://github.com/mandreyel/\", role = \"cph\",\n           comment = \"mio library\"),\n    person(\"Jukka\", \"Jylänki\", role = \"cph\",\n           comment = \"grisu3 implementation\"),\n    person(\"Mikkel\", \"Jørgensen\", role = \"cph\",\n           comment = \"grisu3 implementation\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "The goal of 'vroom' is to read and write data (like 'csv',\n    'tsv' and 'fwf') quickly. When reading it uses a quick initial\n    indexing step, then reads the values lazily , so only the data you\n    actually use needs to be read.  The writer formats the data in\n    parallel and writes to disk asynchronously from formatting.",
         "License": "MIT + file LICENSE",
         "URL": "https://vroom.r-lib.org, https://github.com/tidyverse/vroom",
         "BugReports": "https://github.com/tidyverse/vroom/issues",
-        "Depends": "R (>= 3.4)",
+        "Depends": "R (>= 3.6)",
         "Imports": "bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>=\n1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0),\ntidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr",
         "Suggests": "archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,\nggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,\nrstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,\nutils, waldo, xml2",
         "LinkingTo": "cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)",
@@ -2514,14 +2515,14 @@
         "Copyright": "file COPYRIGHTS",
         "Encoding": "UTF-8",
         "Language": "en-US",
-        "RoxygenNote": "7.2.3",
+        "RoxygenNote": "7.2.3.9000",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-04-28 19:57:03 UTC; jenny",
+        "Packaged": "2023-12-05 16:46:59 UTC; jenny",
         "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  Shelby Bearrows [ctb],\n  https://github.com/mandreyel/ [cph] (mio library),\n  Jukka Jylänki [cph] (grisu3 implementation),\n  Mikkel Jørgensen [cph] (grisu3 implementation),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Jennifer Bryan <jenny@posit.co>",
-        "Repository": "CRAN",
-        "Date/Publication": "2023-04-28 22:20:02 UTC",
-        "Built": "R 4.3.1; x86_64-pc-linux-gnu; 2023-07-31 22:07:35 UTC; unix"
+        "Repository": "RSPM",
+        "Date/Publication": "2023-12-05 23:50:02 UTC",
+        "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-12-07 11:15:40 UTC; unix"
       }
     },
     "withr": {
@@ -2635,7 +2636,7 @@
       "checksum": "e0f8d22d1e5f89b0bc6b7c92405a21e8"
     },
     ".Rprofile": {
-      "checksum": "18240b4e45a71ccd104770401a17595b"
+      "checksum": "38e97c7160088a43e15abdd22fb079a5"
     },
     "app.R": {
       "checksum": "17df986ee75278ee686533d40cd9ede3"
@@ -2644,7 +2645,7 @@
       "checksum": "dbd5077f4ee28c48f11dc20ae619ee6b"
     },
     "renv.lock": {
-      "checksum": "1c310885b209a9747ea747a990eadbb0"
+      "checksum": "657a1aa65b8be3af2fd41c748cc46004"
     }
   },
   "users": null
