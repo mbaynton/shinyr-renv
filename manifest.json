@@ -72,6 +72,33 @@
         "Built": "R 4.3.2; x86_64-pc-linux-gnu; 'Sat, 25 Nov 2023 14:53:59 +0000'; unix"
       }
     },
+    "MatrixModels": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "MatrixModels",
+        "Version": "0.5-3",
+        "Date": "2023-11-06",
+        "Title": "Modelling with Sparse and Dense Matrices",
+        "Author": "Douglas Bates <bates@stat.wisc.edu> and Martin Maechler <maechler@stat.math.ethz.ch>",
+        "Maintainer": "Martin Maechler <mmaechler+Matrix@gmail.com>",
+        "Contact": "Matrix-authors@R-project.org",
+        "Description": "Modelling with sparse and dense 'Matrix' matrices, using\n  modular prediction and response module classes.",
+        "Depends": "R (>= 3.6.0)",
+        "Imports": "stats, methods, Matrix (>= 1.6-0)",
+        "ImportsNote": "_not_yet_stats4",
+        "Encoding": "UTF-8",
+        "LazyLoad": "yes",
+        "License": "GPL (>= 2)",
+        "URL": "https://Matrix.R-forge.R-project.org/,\nhttps://r-forge.r-project.org/R/?group_id=61",
+        "BugReports": "https://R-forge.R-project.org/tracker/?func=add&atid=294&group_id=61",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-11-06 13:43:15 UTC; maechler",
+        "Repository": "RSPM",
+        "Date/Publication": "2023-11-06 14:30:02 UTC",
+        "Built": "R 4.3.0; ; 2023-11-07 11:44:07 UTC; unix"
+      }
+    },
     "R6": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -141,6 +168,73 @@
         "Repository": "CRAN",
         "Date/Publication": "2023-07-06 07:33:14 UTC",
         "Built": "R 4.3.1; x86_64-pc-linux-gnu; 2023-07-28 19:10:14 UTC; unix"
+      }
+    },
+    "SparseM": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "SparseM",
+        "Version": "1.83",
+        "Authors@R": "c(\n    person(\"Roger\", \"Koenker\",  role = c(\"cre\",\"aut\"), email =  \"rkoenker@uiuc.edu\"),\n    person(c(\"Pin\", \"Tian\"), \"Ng\",  role = c(\"ctb\"),\n        comment = \"Contributions to Sparse QR code\", email =  \"pin.ng@nau.edu\"),\n    person(\"Yousef\", \"Saad\",  role = c(\"ctb\"),\n        comment = \"author of sparskit2\"),\n    person(\"Ben\", \"Shaby\", role = c(\"ctb\"),\n\tcomment = \"author of chol2csr\"))",
+        "Maintainer": "Roger Koenker <rkoenker@uiuc.edu>",
+        "Depends": "R (>= 2.15), methods",
+        "Imports": "graphics, stats, utils",
+        "VignetteBuilder": "knitr",
+        "Suggests": "knitr",
+        "Author": "Roger Koenker [cre, aut],\n  Pin Tian Ng [ctb] (Contributions to Sparse QR code),\n  Yousef Saad [ctb] (author of sparskit2),\n  Ben Shaby [ctb] (author of chol2csr)",
+        "Description": "Some basic linear algebra functionality for sparse matrices is\n  provided:  including Cholesky decomposition and backsolving as well as \n  standard R subsetting and Kronecker products.",
+        "License": "GPL (>= 2)",
+        "Title": "Sparse Linear Algebra",
+        "URL": "http://www.econ.uiuc.edu/~roger/research/sparse/sparse.html",
+        "NeedsCompilation": "yes",
+        "Repository": "CRAN",
+        "Packaged": "2024-05-30 15:31:25 UTC; roger",
+        "Date/Publication": "2024-05-30 16:20:02 UTC",
+        "Built": "R 4.3.2; x86_64-pc-linux-gnu; 2024-05-30 20:47:16 UTC; unix"
+      }
+    },
+    "abc": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "abc",
+        "Type": "Package",
+        "Title": "Tools for Approximate Bayesian Computation (ABC)",
+        "Version": "2.2.1",
+        "Date": "2022-05-17",
+        "Authors@R": "c( \n    person(\"Csillery\", \"Katalin\", role = \"aut\", email=\"kati.csillery@gmail.com\"),\n    person(\"Lemaire\", \"Louisiane\", role = \"aut\"),\n    person(\"Francois\", \"Olivier\", role = \"aut\"),\n    person(\"Blum\", \"Michael\",\n    email = \"michael.blum.temp@gmail.com\", role = c(\"aut\", \"cre\")))",
+        "Depends": "R (>= 2.10), abc.data, nnet, quantreg, MASS, locfit",
+        "Description": "Implements several ABC algorithms for\n        performing parameter estimation, model selection, and goodness-of-fit.\n        Cross-validation tools are also available for measuring the\n        accuracy of ABC estimates, and to calculate the\n        misclassification probabilities of different models.",
+        "Repository": "CRAN",
+        "License": "GPL (>= 3)",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-05-18 18:46:30 UTC; mblum",
+        "Author": "Csillery Katalin [aut],\n  Lemaire Louisiane [aut],\n  Francois Olivier [aut],\n  Blum Michael [aut, cre]",
+        "Maintainer": "Blum Michael <michael.blum.temp@gmail.com>",
+        "Date/Publication": "2022-05-19 07:20:02 UTC",
+        "Built": "R 4.3.2; ; 2024-05-30 20:47:35 UTC; unix"
+      }
+    },
+    "abc.data": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "abc.data",
+        "Type": "Package",
+        "Title": "Data Only: Tools for Approximate Bayesian Computation (ABC)",
+        "Version": "1.1",
+        "Authors@R": "c( \n    person(\"Csillery\", \"Katalin\", role = \"aut\", email=\"kati.csillery@gmail.com\"),\n    person(\"Lemaire\", \"Louisiane\", role = \"aut\"),\n    person(\"Francois\", \"Olivier\", role = \"aut\"),\n    person(\"Blum\", \"Michael\",\n    email = \"michael.blum.temp@gmail.com\", role = c(\"aut\", \"cre\")))",
+        "Depends": "R (>= 2.10)",
+        "Description": "Contains data which are used by functions of the 'abc' package.",
+        "Repository": "CRAN",
+        "License": "GPL (>= 3)",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-03-24 10:04:54 UTC; hornik",
+        "Author": "Csillery Katalin [aut],\n  Lemaire Louisiane [aut],\n  Francois Olivier [aut],\n  Blum Michael [aut, cre]",
+        "Maintainer": "Blum Michael <michael.blum.temp@gmail.com>",
+        "Date/Publication": "2024-03-24 10:15:14 UTC",
+        "Built": "R 4.3.2; ; 2024-05-30 20:47:15 UTC; unix"
       }
     },
     "base64enc": {
@@ -1317,6 +1411,30 @@
         "Built": "R 4.3.0; ; 2023-05-16 20:39:32 UTC; unix"
       }
     },
+    "locfit": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "locfit",
+        "Version": "1.5-9.9",
+        "Title": "Local Regression, Likelihood and Density Estimation",
+        "Date": "2024-03-01",
+        "Authors@R": "c(person(\"Catherine\", \"Loader\", role = \"aut\"),\n             person(\"Jiayang\", \"Sun\", role = \"ctb\"),\n             person(\"Lucent Technologies\", role = \"cph\"),\n             person(\"Andy\", \"Liaw\", role = \"cre\", \n                    email=\"andy_liaw@merck.com\"))",
+        "Author": "Catherine Loader [aut],\n  Jiayang Sun [ctb],\n  Lucent Technologies [cph],\n  Andy Liaw [cre]",
+        "Maintainer": "Andy Liaw <andy_liaw@merck.com>",
+        "Description": "Local regression, likelihood and density estimation methods as described in the 1999 book by Loader.",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "lattice",
+        "Suggests": "interp, gam",
+        "License": "GPL (>= 2)",
+        "SystemRequirements": "USE_C17",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-03-01 19:52:45 UTC; ripley",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-01 20:00:36 UTC",
+        "Built": "R 4.3.2; x86_64-pc-linux-gnu; 2024-05-30 20:47:29 UTC; unix"
+      }
+    },
     "lubridate": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -1507,6 +1625,31 @@
         "Built": "R 4.3.1; x86_64-pc-linux-gnu; 'Thu, 05 Oct 2023 00:33:03 +0000'; unix"
       }
     },
+    "nnet": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "nnet",
+        "Priority": "recommended",
+        "Version": "7.3-19",
+        "Date": "2023-05-02",
+        "Depends": "R (>= 3.0.0), stats, utils",
+        "Suggests": "MASS",
+        "Authors@R": "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n             person(\"William\", \"Venables\", role = \"cph\"))",
+        "Description": "Software for feed-forward neural networks with a single\n  hidden layer, and for multinomial log-linear models.",
+        "Title": "Feed-Forward Neural Networks and Multinomial Log-Linear Models",
+        "ByteCompile": "yes",
+        "License": "GPL-2 | GPL-3",
+        "URL": "http://www.stats.ox.ac.uk/pub/MASS4/",
+        "NeedsCompilation": "yes",
+        "Packaged": "2023-05-02 16:07:11 UTC; ripley",
+        "Author": "Brian Ripley [aut, cre, cph],\n  William Venables [cph]",
+        "Maintainer": "Brian Ripley <ripley@stats.ox.ac.uk>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-05-03 11:01:30 UTC",
+        "Built": "R 4.3.1; x86_64-pc-linux-gnu; 'Thu, 29 Jun 2023 02:06:15 +0000'; unix"
+      }
+    },
     "pillar": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -1662,6 +1805,30 @@
         "Repository": "CRAN",
         "Date/Publication": "2021-02-11 19:00:02 UTC",
         "Built": "R 4.3.0; x86_64-pc-linux-gnu; 2023-05-16 20:39:37 UTC; unix"
+      }
+    },
+    "quantreg": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "quantreg",
+        "Title": "Quantile Regression",
+        "Description": "Estimation and inference methods for models for conditional quantile functions: \n  Linear and nonlinear parametric and non-parametric (total variation penalized) models \n  for conditional quantiles of a univariate response and several methods for handling\n  censored survival data.  Portfolio selection methods based on expected shortfall\n  risk are also now included. See Koenker, R. (2005) Quantile Regression, Cambridge U. Press,\n  <doi:10.1017/CBO9780511754098> and Koenker, R. et al. (2017) Handbook of Quantile Regression, \n  CRC Press, <doi:10.1201/9781315120256>. ",
+        "Version": "5.98",
+        "Authors@R": "c(\n    person(\"Roger\", \"Koenker\",  role = c(\"cre\",\"aut\"), email =  \"rkoenker@illinois.edu\"),\n    person(\"Stephen\", \"Portnoy\",  role = c(\"ctb\"), \n\tcomment = \"Contributions to Censored QR code\", email =  \"sportnoy@illinois.edu\"),\n    person(c(\"Pin\", \"Tian\"), \"Ng\",  role = c(\"ctb\"), \n\tcomment = \"Contributions to Sparse QR code\", email =  \"pin.ng@nau.edu\"),\n    person(\"Blaise\", \"Melly\",  role = c(\"ctb\"), \n\tcomment = \"Contributions to preprocessing code\", email =  \"mellyblaise@gmail.com\"),\n    person(\"Achim\", \"Zeileis\",  role = c(\"ctb\"), \n\tcomment = \"Contributions to dynrq code essentially identical to his dynlm code\", \n\temail =  \"Achim.Zeileis@uibk.ac.at\"),\n    person(\"Philip\", \"Grosjean\",  role = c(\"ctb\"), \n\tcomment = \"Contributions to nlrq code\", email =  \"phgrosjean@sciviews.org\"),\n    person(\"Cleve\", \"Moler\",  role = c(\"ctb\"), \n\tcomment = \"author of several linpack routines\"),\n    person(\"Yousef\", \"Saad\",  role = c(\"ctb\"), \n\tcomment = \"author of sparskit2\"),\n    person(\"Victor\", \"Chernozhukov\",  role = c(\"ctb\"), \n\tcomment = \"contributions to extreme value inference code\"),\n    person(\"Ivan\", \"Fernandez-Val\",  role = c(\"ctb\"), \n\tcomment = \"contributions to extreme value inference code\"),\n    person(c(\"Brian\", \"D\"), \"Ripley\",  role = c(\"trl\",\"ctb\"), \n\tcomment = \"Initial (2001) R port from S (to my everlasting shame -- \n\thow could I have been so slow to adopt R!) and for numerous other \n\tsuggestions and useful advice\", email =  \"ripley@stats.ox.ac.uk\"))",
+        "Maintainer": "Roger Koenker <rkoenker@illinois.edu>",
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5), stats, SparseM",
+        "Imports": "methods, graphics, Matrix, MatrixModels, survival, MASS",
+        "Suggests": "interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer",
+        "License": "GPL (>= 2)",
+        "URL": "https://www.r-project.org",
+        "NeedsCompilation": "yes",
+        "VignetteBuilder": "R.rsp",
+        "Packaged": "2024-05-26 10:55:09 UTC; roger",
+        "Author": "Roger Koenker [cre, aut],\n  Stephen Portnoy [ctb] (Contributions to Censored QR code),\n  Pin Tian Ng [ctb] (Contributions to Sparse QR code),\n  Blaise Melly [ctb] (Contributions to preprocessing code),\n  Achim Zeileis [ctb] (Contributions to dynrq code essentially identical\n    to his dynlm code),\n  Philip Grosjean [ctb] (Contributions to nlrq code),\n  Cleve Moler [ctb] (author of several linpack routines),\n  Yousef Saad [ctb] (author of sparskit2),\n  Victor Chernozhukov [ctb] (contributions to extreme value inference\n    code),\n  Ivan Fernandez-Val [ctb] (contributions to extreme value inference\n    code),\n  Brian D Ripley [trl, ctb] (Initial (2001) R port from S (to my\n    everlasting shame -- how could I have been so slow to adopt R!) and\n    for numerous other suggestions and useful advice)",
+        "Date/Publication": "2024-05-26 12:00:03 UTC",
+        "Built": "R 4.3.2; x86_64-pc-linux-gnu; 2024-05-30 20:47:20 UTC; unix"
       }
     },
     "rappdirs": {
@@ -2004,6 +2171,33 @@
         "Repository": "CRAN",
         "Date/Publication": "2023-10-02 06:50:02 UTC",
         "Built": "R 4.3.1; x86_64-pc-linux-gnu; 2023-10-05 20:00:26 UTC; unix"
+      }
+    },
+    "survival": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Title": "Survival Analysis",
+        "Priority": "recommended",
+        "Package": "survival",
+        "Version": "3.5-7",
+        "Date": "2023-08-12",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "graphics, Matrix, methods, splines, stats, utils",
+        "LazyData": "Yes",
+        "LazyDataCompression": "xz",
+        "ByteCompile": "Yes",
+        "Authors@R": "c(person(c(\"Terry\", \"M\"), \"Therneau\",\n                    email=\"therneau.terry@mayo.edu\",\n\t            role=c(\"aut\", \"cre\")),\n               person(\"Thomas\", \"Lumley\", role=c(\"ctb\", \"trl\"),\n\t       comment=\"original S->R port and R maintainer until 2009\"),\n\t       person(\"Atkinson\", \"Elizabeth\", role=\"ctb\"),\n\t       person(\"Crowson\", \"Cynthia\", role=\"ctb\"))",
+        "Description": "Contains the core survival analysis routines, including\n\t     definition of Surv objects, \n\t     Kaplan-Meier and Aalen-Johansen (multi-state) curves, Cox models,\n\t     and parametric accelerated failure time models.",
+        "License": "LGPL (>= 2)",
+        "URL": "https://github.com/therneau/survival",
+        "NeedsCompilation": "yes",
+        "Packaged": "2023-08-13 13:14:48 UTC; therneau",
+        "Author": "Terry M Therneau [aut, cre],\n  Thomas Lumley [ctb, trl] (original S->R port and R maintainer until\n    2009),\n  Atkinson Elizabeth [ctb],\n  Crowson Cynthia [ctb]",
+        "Maintainer": "Terry M Therneau <therneau.terry@mayo.edu>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-08-14 07:10:03 UTC",
+        "Built": "R 4.3.1; x86_64-pc-linux-gnu; \"Thu, 05 Oct 2023 00:27:11 +0000\"; unix"
       }
     },
     "terra": {
@@ -2441,16 +2635,16 @@
       "checksum": "e0f8d22d1e5f89b0bc6b7c92405a21e8"
     },
     ".Rprofile": {
-      "checksum": "7cf376f1e74f47699d35ec7b34dc0da1"
+      "checksum": "18240b4e45a71ccd104770401a17595b"
     },
     "app.R": {
-      "checksum": "0d229fe03020fc17de2069a74f6d2c4a"
+      "checksum": "17df986ee75278ee686533d40cd9ede3"
     },
     "data/saturday_bikes.csv": {
       "checksum": "dbd5077f4ee28c48f11dc20ae619ee6b"
     },
     "renv.lock": {
-      "checksum": "ef8c9079a12165bece73bf5d1a1e084e"
+      "checksum": "1c310885b209a9747ea747a990eadbb0"
     }
   },
   "users": null
